@@ -1,1 +1,218 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GANNI MOTOR | Service Motor Panggilan Jakarta</title>
+<meta name="description" content="Ganni Motor - Service motor panggilan 24 jam. Datang maksimal 30 menit. Jakarta Timur dan sekitarnya.">
+
+<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.9)),
+    url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2');
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* LOGO */
+.logo {
+  width: 260px;
+  margin-bottom: 20px;
+
+  filter:
+    drop-shadow(0 0 10px orange)
+    drop-shadow(0 0 30px red);
+
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { filter: drop-shadow(0 0 10px orange); }
+  to { filter: drop-shadow(0 0 40px red); }
+}
+
+/* TITLE */
+.hero h1 {
+  font-family: 'Notable', sans-serif;
+  font-size: 32px;
+  margin: 10px 0;
+  color: orange;
+  text-shadow: 0 0 10px red;
+}
+
+/* TAGLINE */
+.tagline {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+/* INFO */
+.info {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 16px 28px;
+  margin: 15px 10px;
+  border-radius: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-wa {
+  background: linear-gradient(45deg, #25D366, #00ff88);
+  color: black;
+  box-shadow: 0 0 10px rgba(0,255,100,0.5);
+}
+
+.btn-map {
+  background: linear-gradient(45deg, #ffd700, #ff9900);
+  color: black;
+  box-shadow: 0 0 10px rgba(255,200,0,0.6);
+}
+
+/* SECTION */
+.section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: red;
+}
+
+/* CARD */
+.card {
+  background: #111;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(255,0,0,0.2);
+}
+
+/* FLOATING WA */
+.floating {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: black;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0,255,100,0.6);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: #aaa;
+  font-size: 14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+
+  <img src="logo.png" class="logo" alt="Ganni Motor Logo">
+
+  <h1>GANNI MOTOR</h1>
+
+  <div class="tagline">Repair Your Motorbike Anywhere</div>
+
+  <div class="info">
+    ⭐⭐⭐⭐⭐ 200+ pelanggan puas
+  </div>
+
+  <div class="info">
+    Servis Motor Panggilan • 24 Jam • Maks 30 Menit Sampai
+  </div>
+
+  <a class="btn btn-wa"
+     href="https://wa.me/6289637591994?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis"
+     target="_blank">
+    Chat Sekarang
+  </a>
+
+  <a class="btn btn-map"
+     href="https://maps.app.goo.gl/7cpzYrABWeR8qn9Z6"
+     target="_blank">
+    Lokasi
+  </a>
+
+</div>
+
+<!-- KEUNGGULAN -->
+<div class="section">
+  <h2>Kenapa Pilih Kami?</h2>
+
+  <div class="card">⚡ Datang Maksimal 30 Menit</div>
+  <div class="card">🕒 Buka 24 Jam</div>
+  <div class="card">🔧 Teknisi Profesional</div>
+</div>
+
+<!-- LAYANAN -->
+<div class="section">
+  <h2>Layanan</h2>
+
+  <div class="card">
+    Servis Mesin • Ganti Oli • Tune Up • Kelistrikan • Home Service
+  </div>
+</div>
+
+<!-- AREA -->
+<div class="section">
+  <h2>Area</h2>
+
+  <div class="card">
+    Jakarta Timur • Utara • Pusat • Selatan
+  </div>
+</div>
+
+<!-- FLOATING WA -->
+<a class="floating"
+   href="https://wa.me/6289637591994"
+   target="_blank">
+  WA
+</a>
+
+<footer>
+  © 2026 GANNI MOTOR | Service Motor Panggilan Profesional
+</footer>
+
+</body>
+</html>
